@@ -4,9 +4,10 @@ import React from "react";
 import { LinkPreviewDemo } from "./LinkPreviewDemo";
 export function BackgroundBeamsDemo() {
   return (
+    <section id="contact">
     <div className="h-[30rem] w-full rounded-md relative flex flex-col items-center justify-center antialiased mt-0">
       <div className="max-w-2xl mx-auto p-4">
-        <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
+        <h1 className="relative z-10 text-5xl md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
           Contact Me!
         </h1>
         <p></p>
@@ -21,10 +22,11 @@ export function BackgroundBeamsDemo() {
         </div>
         <input
           type="text"
-          placeholder="hi@rishikaa"
-          className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700 p-3"
+          placeholder="aggarwalrishika468@gmail.com"
+          className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700 p-3 text-white"
         />
       </div>
     </div>
+    </section>
   );
 }

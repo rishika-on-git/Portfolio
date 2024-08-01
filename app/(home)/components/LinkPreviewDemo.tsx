@@ -7,15 +7,20 @@ export function LinkPreviewDemo() {
   return (
     <div className="">
       <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-xl max-w-3xl mx-auto mb-10">
-        <LinkPreview url="https://tailwindcss.com" className="font-bold">
-          Tailwind CSS
+        My{" "}
+        <LinkPreview url="https://github.com/rishika-on-git" className="font-bold">
+          Github
         </LinkPreview>{" "}
-        and{" "}
-        <LinkPreview url="https://framer.com/motion" className="font-bold">
-          Framer Motion
+        ,{" "}
+        <LinkPreview url="https://www.linkedin.com/in/rishika-aggarwal-462b2a280/" className="font-bold">
+          LinkedIn
+        </LinkPreview>{" "}and{" "}
+        <LinkPreview url="https://x.com/home" className="font-bold">
+          Twitter
         </LinkPreview>{" "}
-        are a great way to build modern websites.
+        profiles.
       </p>
+
       
     </div>
   );

@@ -8,19 +8,20 @@ import {
 
 export function TextRevealCardPreview() {
   return (
+    <section id="about">
     <div className="flex items-center justify-center h-[20rem] rounded-2xl w-full mb-20">
       <TextRevealCard
-        text="You know the business"
-        revealText="I know the chemistry "
+        text="Something special ..........."
+        revealText="Full Stack AI Engineering"
       >
         <TextRevealCardTitle>
-          Sometimes, you just need to see it.
+          Something Fun :) 
         </TextRevealCardTitle>
         <TextRevealCardDescription>
-          This is a text reveal card. Hover over the card to reveal the hidden
-          text.
+        \(^_^)/ 
         </TextRevealCardDescription>
       </TextRevealCard>
     </div>
+    </section>
   );
 }

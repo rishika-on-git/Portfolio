@@ -4,7 +4,10 @@ const nextConfig = {
     domains: [
       'images.unsplash.com',
       'api.microlink.io', // Microlink Image Preview
+      
     ],
+
+
   },
 };
 
