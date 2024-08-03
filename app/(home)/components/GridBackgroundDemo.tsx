@@ -3,7 +3,6 @@ import React from "react";
 import { FlipWordsDemo } from "./FlipWordsDemo";
 import { AnimatedTooltipPreview } from "./AnimatedTooltipPreview";
 import { TextRevealCardPreview } from "./TextRevealCardPreview";
-import { StickyScrollRevealDemo } from "./StickyScrollRevealDemo";
 export function GridBackgroundDemo() {
   return (
     <div className="">
