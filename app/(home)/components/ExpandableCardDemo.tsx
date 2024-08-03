@@ -265,7 +265,7 @@ const cards = [
     content: () => {
       return (
         <p>
-          Created a website for OSDC HACK'24
+          Created a website for OSDC HACK&apos;24
         </p>
       );
     },
