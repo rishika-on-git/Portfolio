@@ -8,7 +8,7 @@ export function GridBackgroundDemo() {
   return (
     <div className="">
       {/* Radial gradient for the container to give a faded look */}
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_5%,black)]"></div>
       <div className="flex flex-col h-full mt-20">
         <div>
           <FlipWordsDemo />

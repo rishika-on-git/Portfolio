@@ -31,7 +31,6 @@ export function ExpandableCardDemo() {
   useOutsideClick(ref, () => setActive(null));
 
   return (
-    
     <section id="projects">
       <h1 className="relative z-10  text-5xl md:text-7xl md:leading-loose  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold mb-3 ">
         Projects
@@ -147,7 +146,7 @@ export function ExpandableCardDemo() {
                   height={100}
                   src={card.src}
                   alt={card.title}
-                  className="h-60 w-full  rounded-lg object-cover object-top"
+                  className="h-60 w-full  rounded-lg object-top"
                 />
               </motion.div>
               <div className="flex justify-center items-center flex-col">
@@ -168,8 +167,7 @@ export function ExpandableCardDemo() {
           </motion.div>
         ))}
       </ul>
-      </section>
-    
+    </section>
   );
 }
 
@@ -208,91 +206,66 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Lana Del Rey",
-    title: "Summertime Sadness",
-    src: "https://images.unsplash.com/photo-1721539584859-9fea914ae2fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8",
+    description: "MERN VR WEB3 AI",
+    title: "Home Harbor",
+    src: "/images/home.jpg",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://osd-hack-seven.vercel.app/",
     content: () => {
       return (
         <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
+          Led a team in developing HomeHarbor, a revolutionary platform for
+          seamless collaboration in home construction. Utilized MERN Stack for
+          web development, AI/ML for predictive analysis, Web3 for secure
+          blockchain integration, and AR/VR for immersive project visualization.
+          Resulted in improved efficiency by 55% and increased trust among users
+          during the hackathon phase.
         </p>
       );
     },
   },
   {
-    description: "Babbu Maan",
-    title: "Mitran Di Chhatri",
-    src: "https://images.unsplash.com/photo-1721539584859-9fea914ae2fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8",
+    description: "HTML CSS JS PHP MYSQL",
+    title: "Blogify",
+    src: "/images/blog.jpg",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://github.com/rishika-on-git/Blogify",
     content: () => {
       return (
         <p>
-          Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-          voice and profound lyrics that resonate deeply with his audience. Born
-          in the village of Khant Maanpur in Punjab, India, he has become a
-          cultural icon in the Punjabi music industry. <br /> <br /> His songs
-          often reflect the struggles and triumphs of everyday life, capturing
-          the essence of Punjabi culture and traditions. With a career spanning
-          over two decades, Babu Maan has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
+          Designed and developed a dynamic blog website from scratch,
+          incorporating HTML for structure, CSS for styling, and JavaScript for
+          interactivity. Implemented backend functionality using PHP and
+          integrated a MySQL database for data storage.
         </p>
       );
     },
   },
 
   {
-    description: "Metallica",
-    title: "For Whom The Bell Tolls",
-    src: "https://images.unsplash.com/photo-1721539584859-9fea914ae2fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8",
+    description: "Event website",
+    title: "JIIT OPTICA CHAPTER",
+    src: "/images/jscop.jpg",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://jscop.jiitopticachapter.com/",
     content: () => {
       return (
         <p>
-          Metallica, an iconic American heavy metal band, is renowned for their
-          powerful sound and intense performances that resonate deeply with
-          their audience. Formed in Los Angeles, California, they have become a
-          cultural icon in the heavy metal music industry. <br /> <br /> Their
-          songs often reflect themes of aggression, social issues, and personal
-          struggles, capturing the essence of the heavy metal genre. With a
-          career spanning over four decades, Metallica has released numerous hit
-          albums and singles that have garnered them a massive fan following
-          both in the United States and abroad.
+          Created a website for JSCOP 6.0
         </p>
       );
     },
   },
   {
-    description: "Lord Himesh",
-    title: "Aap Ka Suroor",
-    src: "https://images.unsplash.com/photo-1721539584859-9fea914ae2fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8",
+    description: "Event Website",
+    title: "OSDC HACK WEBSITE",
+    src: "/images/osdc-hack.jpg",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://repo-zeta-liard.vercel.app/",
     content: () => {
       return (
         <p>
-          Himesh Reshammiya, a renowned Indian music composer, singer, and
-          actor, is celebrated for his distinctive voice and innovative
-          compositions. Born in Mumbai, India, he has become a prominent figure
-          in the Bollywood music industry. <br /> <br /> His songs often feature
-          a blend of contemporary and traditional Indian music, capturing the
-          essence of modern Bollywood soundtracks. With a career spanning over
-          two decades, Himesh Reshammiya has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
+          Created a website for OSDC HACK'24
         </p>
       );
     },
